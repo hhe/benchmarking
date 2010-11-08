@@ -1,0 +1,362 @@
+"run: bench=$bench param=$param fatalstatus=$status" -a
+"run: bench=$bench param=$param fatalstatus=$status" -a
+#
+# & calculate results
+# 0 sleep; 1000 iterations
+# execute any prepratory command string
+# if the test requires mulitple concurrent processes,
+# parameter count for a "for" loop
+# prepare the background process string (bgstr)
+# regular Run - set logfile to go on signal
+# set some default values
+# this is just a string of "+"s that will provides a
+# underscore can couple params
+# with these options
+########### some specific cleanup routines ##############
+############ THE BENCH IS TIMED ##############
+###################### select the bench specific values ##########
+###############################################
+$prep >>$stdout 
+${SCRPDIR}/cleanup -l $LOGFILE $cleanopt # finalize this bench
+${SCRPDIR}/cleanup -l $LOGFILE -i $i $cleanopt -r \
+${SCRPDIR}/cleanup -l $LOGFILE -r \
+*)
+*)   ${BINDIR}/cleanup -l $LOGFILE -r "run: unknown benchmark \"$bench\"" -a
+-d|-D)
+-q|-Q)
+-v|-V)
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+BINDIR=${BINDIR:-${HOMEDIR}/pgms}
+BINDIR=`pwd`
+C)
+C)   need=cctest.c
+HOMEDIR=${HOMEDIR:-.}
+HOMEDIR=`pwd`
+LOGFILE=${RESULTDIR}/log
+PATH="${PATH}:${BINDIR}"
+PWD=`pwd`
+RESULTDIR=${RESULTDIR:-${HOMEDIR}/results}
+RESULTDIR=`pwd`
+SCRPDIR=${SCRPDIR:-${HOMEDIR}/pgms}
+SCRPDIR=`pwd`
+TESTDIR=${TESTDIR:-${HOMEDIR}/testdir}
+TESTDIR=`pwd`
+TMPDIR=${HOMEDIR}/tmp
+TMPDIR=`pwd`
+all)
+args="" # the accumulator for the bench units to be run
+args="$args $arithmetic $system"
+args="$args $arithmetic"
+args="$args $db"
+args="$args $dhry"
+args="$args $load"
+args="$args $mem"
+args="$args $misc"
+args="$args $system"
+args="$args $word"
+arithmetic)
+arithmetic="arithoh register short int long float double dc"
+arithoh|register|short|int|long|float|double)
+bgnumber=""
+bgnumber='$param'
+bgstr=""
+bgstr="+ $bgstr"
+case $bench
+case $bench
+case $word
+cat ${RESULTDIR}/log >> ${RESULTDIR}/log.accum
+cd $BINDIR
+cd $HOMEDIR
+cd $PWD
+cd $PWD
+cd $PWD
+cd $PWD
+cd $PWD
+cd $PWD
+cd $RESULTDIR
+cd $SCRPDIR
+cd $TESTDIR
+cd $TMPDIR
+cd $pwd                    # move back home
+cd $testdir                   # move to the test directory
+cleanopt="-d $tmp"
+cleanopt="-d $tmp"
+cleanopt="-f $tmp"
+cleanopt="-m $tmp"
+cleanopt="-t $tmp"
+context1)
+count=`expr "$bg"`
+count=`expr $count - 1`
+cp $tmp ${TMPDIR}/save.$bench.$param
+date=`date`
+db)
+db="dbmscli" # add to as new database engines are developed
+dbmscli)
+dc)  need=dc.dat
+dhry)
+dhry2)
+dhry2reg)
+dhry="dhry2 dhry2reg" # dhrystone loops
+do
+do   # level 2
+do  # do depth 3
+do  # do level 1
+do # do level 1
+do # do level 1
+done
+done # end do depth 2 - end of all options for this bench
+done # end do depth 3 - repeat of bench
+done # end do level 1
+done # end do level 1
+done # end do level 1  - all benchmarks requested
+echo
+echo "  $date (long iterations $iter times)" >>$LOGFILE
+echo " " `who | wc -l` "interactive users." >>$LOGFILE
+echo " " `who | wc -l` "interactive users." >>$LOGFILE
+echo " $i\c"                  # display repeat number
+echo ""
+echo "" >>$LOGFILE
+echo "" >>$LOGFILE
+echo "" >>$LOGFILE
+echo "$bench: \c"
+echo "$logmsg" >>$LOGFILE
+echo "$msg" >>$LOGFILE
+echo "$prog $opt"
+echo "BENCH COMMAND TO BE EXECUTED:"
+echo "End Benchmark Run ($date) ...." >>$LOGFILE
+echo "Start Benchmark Run (BYTE Version $version)" >>$LOGFILE
+echo "\n   [$param] -\c"           # generate message to user
+echo "kill -9 $$" > ${TMPDIR}/kill_run ; chmod u+x ${TMPDIR}/kill_run
+else
+else
+else
+else
+else  # generate list of loop numbers
+else # with redirected stdin
+esac
+esac
+esac
+eval bg='"'$bgnumber'"'   # evaluate bgnumber string
+eval msg='"'$parammsg'"'            # the eval is used to
+eval opt='"'$options'"'   # evaluate any vars in options
+eval prep='"'$prepcmd'"'   # evaluate any prep command
+execl)  options=${nexecs-100}
+exit
+exit # leave the script if there are errors
+exit 1
+export BINDIR TMPDIR RESULTDIR PATH
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi 
+fi 
+fi # end  level 1
+fi #end level 1
+fi #loop list genration
+for bench # line argument processing
+for i in $repeat    # loop for the specified number
+for param in $paramlist
+for word
+fstime) repeat="$shortloop"
+hanoi)  options='$param'
+if [ "$runoption" != "Q" ]
+if [ "$runoption" != 'D' ]
+if [ "$runoption" != 'D' ]  # level 1
+if [ "$runoption" != 'Q' ]
+if [ "$runoption" != 'Q' ]
+if [ "$runoption" != 'Q' ]
+if [ "$runoption" = "V" ]
+if [ $runoption != 'Q' ]
+if [ -n "$prep" ]
+if test "$bg" != ""
+if test "$msg"                      # evaluate any embedded
+if test "$runoption" = 'D'
+if test "$stdin" = ""  
+if test $# -eq 0  #no arguments specified
+if test $bench = seqmem
+if test $iter -eq 6
+if test $iter -le $short
+if test $status != 0 # must have been an error
+if test -f $tmp # is there an error file ?
+if test -w ${RESULTDIR}/log
+if test -w ${RESULTDIR}/log.accum
+in
+in
+in
+iter=${iterations-6}
+iter=`expr $iter - 1`
+load)
+load="shell" # cummulative load tests
+logmsg="$type Memory Access Test: $poke Accesses"
+logmsg="Arithmetic Test (sqrt(2) with dc to 99 decimal places)"
+logmsg="Arithmetic Test (type = $bench): $options Iterations"
+logmsg="Bourne shell script and Unix utilities"
+logmsg="C Compiler Test:"
+logmsg="Client/Server Database Engine:"
+logmsg="Dhrystone 2 using register variables"
+logmsg="Dhrystone 2 without register variables"
+logmsg="Execl Throughput Test: $options execs"
+logmsg="Filesystem Throughput Test:"
+logmsg="Pipe Throughput Test: read & write $options x 512 byte blocks"
+logmsg="Pipe-based Context Switching Test: 2 x $options Switches"
+logmsg="Process Creation Test: $options forks"
+logmsg="Recursion Test: Tower of Hanoi Problem"
+logmsg="System Call Overhead Test: 5 x $options Calls"
+longloop=""
+longloop="$iter $longloop"
+longloop="1 2 3 4 5 6"
+mem)
+mem="seqmem randmem"
+misc)
+misc="C shell"
+mv ${RESULTDIR}/log ${RESULTDIR}/log.accum
+need="db.dat"
+need=$prog             # we need the at least the program
+options=""
+options=${arithloop-10000}
+options=${dhryloops-10000}
+options=${dhryloops-10000}
+options=${ncall-4000}
+options=${switch1-500}
+options='$param '"$where"
+options='$param'
+options='${testdir}/db.dat $param 0 1000'  # $param clients;
+options='-s$param '"-n$poke"
+param=`echo $param | sed 's/_/ /g'` # be sure that spaces are used
+paramlist="#"          # a dummy parameter to make anything run
+paramlist="${ndisk-17}"
+paramlist="cctest.c"
+paramlist=${arrays-"512 1024 2048 8192 16384"}
+paramlist=${background-"1 2 4 8"}
+paramlist=${blocks-"512 1024 2048 8192"}
+paramlist=${clients-"1 2 4 8"}
+parammsg=""
+parammsg='$param Disk Problem:'
+parammsg='$param client processes. (filesize `cat ${testdir}/db.dat|wc -c` bytes)'
+parammsg='$param concurrent background processes'
+parammsg='Array Size: $param bytes'
+parammsg='File Size: $param blocks'
+parammsg='cc $param'
+pg $LOGFILE
+pipe)   options=${io-2048}
+poke=${poke-1000000}
+prepcmd=""             # preparation command or script
+prepcmd='${BINDIR}/dbprep ${testdir}/db.dat 10000'
+prog="multi.sh"
+prog=${BINDIR}/$bench  # the bench name is default program
+prog=cc
+prog=dc
+pwd=`pwd`                     # remember where we are
+randmem|seqmem)
+repeat="$longloop"
+repeat="$shortloop"
+repeat="$shortloop"
+repeat="$shortloop"
+rm ${RESULTDIR}/log
+rm -f $tmp    # remove any tmp files
+rm -f a.out
+rm -f cctest.o a.out
+runoption="D" #debug
+runoption="N"
+runoption="Q" #quiet
+runoption="V" #verbose
+set - $args
+set - $dhry $arithmetic $system $misc  # db and work not included
+set -v
+set -x
+shell)
+short=`expr \( $iter + 1 \) / 2`
+shortloop=""
+shortloop="$iter $shortloop"
+shortloop="1 2 3"
+spawn)  options=${children-100}
+speed)
+status=$?                  # save the result code
+stdin=""
+stdin=dc.dat
+stdout="$LOGFILE"
+stdout=/dev/null
+stdout=/dev/null
+stdout=/dev/null
+syscall)
+system)
+system="syscall pipe context1 spawn execl fstime"
+testdir="${TESTDIR}"   # the directory in which to run the test
+testdir="shelldir"
+then
+then
+then
+then
+then
+then
+then
+then
+then
+then
+then
+then
+then
+then
+then
+then
+then
+then
+then
+then                                # variables in the parammsg
+then # without redirected stdin
+time $benchcmd
+time $prog $opt $bgstr 2>>$tmp >>$stdout
+time $prog $opt $bgstr <$stdin 2>>$tmp >>$stdout
+tmp=${TMPDIR}/$$.tmp
+trap "${SCRPDIR}/cleanup -l $LOGFILE -a; exit" 1 2 3 15
+trap "${SCRPDIR}/cleanup -l $LOGFILE -i $i $cleanopt -a; exit" 1 2 3 15
+trap "exit" 1 2 3 15
+type=Random
+type=Sequential
+umask 022    # at least mortals can read root's files this way
+uname -a >>$LOGFILE
+version="1.2"
+where=${where-${TMPDIR}}
+while test $count -gt 0
+while test $iter -gt 0

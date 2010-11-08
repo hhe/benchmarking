@@ -1,0 +1,131 @@
+Dhrystone 2 using register variables,1,6881909.3,lps
+Dhrystone 2 using register variables,2,6341042.8,lps
+Dhrystone 2 using register variables,3,6962224.8,lps
+Dhrystone 2 using register variables,4,7022383.4,lps
+Dhrystone 2 using register variables,5,7080780.7,lps
+Dhrystone 2 using register variables,6,6640048.7,lps
+Dhrystone 2 using register variables,7,7046189.1,lps
+Dhrystone 2 using register variables,8,6859488.2,lps
+Dhrystone 2 using register variables,9,6877062.0,lps
+Dhrystone 2 using register variables,10,7243176.1,lps
+Double-Precision Whetstone,1331,11.2,MWIPS
+Double-Precision Whetstone,1425,7.4,MWIPS
+Double-Precision Whetstone,1390,7.6,MWIPS
+Double-Precision Whetstone,1313,9.6,MWIPS
+Double-Precision Whetstone,1390,8.1,MWIPS
+Double-Precision Whetstone,1323,11.1,MWIPS
+Double-Precision Whetstone,1428,7.9,MWIPS
+Double-Precision Whetstone,1352,10.9,MWIPS
+Double-Precision Whetstone,1379,8.1,MWIPS
+Double-Precision Whetstone,1394,8.5,MWIPS
+System Call Overhead,1,50955.1,lps
+System Call Overhead,2,50617.2,lps
+System Call Overhead,3,50860.9,lps
+System Call Overhead,4,49203.9,lps
+System Call Overhead,5,49387.6,lps
+System Call Overhead,6,47091.0,lps
+System Call Overhead,7,48319.8,lps
+System Call Overhead,8,47883.2,lps
+System Call Overhead,9,51797.3,lps
+System Call Overhead,10,50689.8,lps
+Pipe Throughput,1,32472.7,lps
+Pipe Throughput,2,32706.0,lps
+Pipe Throughput,3,32155.1,lps
+Pipe Throughput,4,31444.9,lps
+Pipe Throughput,5,33750.2,lps
+Pipe Throughput,6,34616.5,lps
+Pipe Throughput,7,34696.6,lps
+Pipe Throughput,8,33722.0,lps
+Pipe Throughput,9,33866.1,lps
+Pipe Throughput,10,34553.8,lps
+Pipe-based Context Switching,1,28446.3,lps
+Pipe-based Context Switching,2,30720.2,lps
+Pipe-based Context Switching,3,32094.3,lps
+Pipe-based Context Switching,4,30290.9,lps
+Pipe-based Context Switching,5,31443.6,lps
+Pipe-based Context Switching,6,31199.4,lps
+Pipe-based Context Switching,7,29896.1,lps
+Pipe-based Context Switching,8,30716.2,lps
+Pipe-based Context Switching,9,30647.0,lps
+Pipe-based Context Switching,10,29679.1,lps
+Process Creation,1,476.1,lps
+Process Creation,2,469.2,lps
+Process Creation,3,468.6,lps
+Execl Throughput,1,277.1,lps
+Execl Throughput,2,273.5,lps
+Execl Throughput,3,281.9,lps
+File Write 1024 bufsize 2000 maxblocks,0,42400.0,KBps
+File Read 1024 bufsize 2000 maxblocks,0,49632.0,KBps
+File Copy 1024 bufsize 2000 maxblocks,0,22975.0,KBps
+File Write 1024 bufsize 2000 maxblocks,1,45266.0,KBps
+File Read 1024 bufsize 2000 maxblocks,1,49163.0,KBps
+File Copy 1024 bufsize 2000 maxblocks,1,23396.0,KBps
+File Write 1024 bufsize 2000 maxblocks,2,45466.0,KBps
+File Read 1024 bufsize 2000 maxblocks,2,52777.0,KBps
+File Copy 1024 bufsize 2000 maxblocks,2,24014.0,KBps
+File Write 256 bufsize 500 maxblocks,0,11716.0,KBps
+File Read 256 bufsize 500 maxblocks,0,22777.0,KBps
+File Copy 256 bufsize 500 maxblocks,0,7926.0,KBps
+File Write 256 bufsize 500 maxblocks,1,12116.0,KBps
+File Read 256 bufsize 500 maxblocks,1,23453.0,KBps
+File Copy 256 bufsize 500 maxblocks,1,7631.0,KBps
+File Write 256 bufsize 500 maxblocks,2,12050.0,KBps
+File Read 256 bufsize 500 maxblocks,2,23525.0,KBps
+File Copy 256 bufsize 500 maxblocks,2,6060.0,KBps
+File Write 4096 bufsize 8000 maxblocks,0,81600.0,KBps
+File Read 4096 bufsize 8000 maxblocks,0,132253.0,KBps
+File Copy 4096 bufsize 8000 maxblocks,0,49871.0,KBps
+File Write 4096 bufsize 8000 maxblocks,1,86666.0,KBps
+File Read 4096 bufsize 8000 maxblocks,1,161491.0,KBps
+File Copy 4096 bufsize 8000 maxblocks,1,59146.0,KBps
+File Write 4096 bufsize 8000 maxblocks,2,99466.0,KBps
+File Read 4096 bufsize 8000 maxblocks,2,171579.0,KBps
+File Copy 4096 bufsize 8000 maxblocks,2,59078.0,KBps
+1.00017
+Shell Scripts (1 concurrent),1,661.9,lpm
+1.00017
+Shell Scripts (1 concurrent),2,1379.8,lpm
+1.00017
+Shell Scripts (1 concurrent),3,2090.7,lpm
+1.00033
+Shell Scripts (8 concurrent),1,93.0,lpm
+1.00033
+Shell Scripts (8 concurrent),2,184.9,lpm
+1.00017
+Shell Scripts (8 concurrent),3,275.9,lpm
+1.0005
+Shell Scripts (16 concurrent),1,47.0,lpm
+1.00033
+Shell Scripts (16 concurrent),2,93.0,lpm
+1.00033
+Shell Scripts (16 concurrent),3,138.9,lpm
+Arithmetic Test (type = short),1,1631056.8,lps
+Arithmetic Test (type = short),2,1732877.2,lps
+Arithmetic Test (type = short),3,1695112.2,lps
+Arithmetic Test (type = int),1,1789075.2,lps
+Arithmetic Test (type = int),2,1714381.5,lps
+Arithmetic Test (type = int),3,1672208.7,lps
+Arithmetic Test (type = long),1,1630681.8,lps
+Arithmetic Test (type = long),2,1652243.4,lps
+Arithmetic Test (type = long),3,1671344.3,lps
+Arithmetic Test (type = float),1,542960.4,lps
+Arithmetic Test (type = float),2,544222.7,lps
+Arithmetic Test (type = float),3,578706.2,lps
+Arithmetic Test (type = double),1,590969.6,lps
+Arithmetic Test (type = double),2,563574.6,lps
+Arithmetic Test (type = double),3,543182.8,lps
+1.00017
+C Compiler Throughput,1,481.9,lpm
+1.00033
+C Compiler Throughput,2,942.8,lpm
+1.00017
+C Compiler Throughput,3,1383.7,lpm
+0.500167
+Dc: sqrt(2) to 99 decimal places,1,21962.7,lpm
+0.500167
+Dc: sqrt(2) to 99 decimal places,2,42855.7,lpm
+0.500167
+Dc: sqrt(2) to 99 decimal places,3,64608.5,lpm
+Recursion Test--Tower of Hanoi,1,85803.1,lps
+Recursion Test--Tower of Hanoi,2,73933.4,lps
+Recursion Test--Tower of Hanoi,3,74347.7,lps

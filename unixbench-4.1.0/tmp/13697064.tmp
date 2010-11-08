@@ -1,0 +1,8 @@
+TEST|System Call Overhead
+FLAVOR|BSD
+460334 loops
+10.010s real   00.670s user   06.430s system
+414862 loops
+10.000s real   00.720s user   06.260s system
+453427 loops
+10.000s real   00.600s user   06.560s system

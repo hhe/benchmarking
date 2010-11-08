@@ -1,0 +1,18 @@
+TEST|Pipe Throughput
+FLAVOR|BSD
+31685 loops
+01.000s real   00.020s user   00.590s system
+25860 loops
+01.010s real   00.020s user   00.650s system
+31365 loops
+01.000s real   00.010s user   00.560s system
+27346 loops
+01.000s real   00.020s user   00.580s system
+32753 loops
+01.010s real   00.020s user   00.590s system
+31186 loops
+01.010s real   00.020s user   00.560s system
+31785 loops
+01.000s real   00.030s user   00.560s system
+26881 loops
+01.010s real   00.010s user   00.580s system

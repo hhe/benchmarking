@@ -1,0 +1,4 @@
+TEST|Shell Scripts (8 concurrent)
+FLAVOR|BSD
+97 loops
+01:00.020s real   15.560s user   04.360s system

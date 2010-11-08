@@ -1,0 +1,18 @@
+
+  BYTE UNIX Benchmarks (Version 4.1.0)
+  System -- localhost
+  Start Benchmark Run: Sun Nov 07 05:52:15 SST 2010
+   1 interactive users.
+  
+  lrwxrwxrwx  1 root      root              3 Dec 10  2009 /bin/sh -> ksh
+  /bin/sh: symbolic link to `ksh'
+  /dev/hd0t179             8385880   3080621   5305259      37%  /               
+Dhrystone 2 using register variables     6199006.7 lps   (10.0 secs, 10 samples)
+
+
+                     INDEX VALUES            
+TEST                                        BASELINE     RESULT      INDEX
+
+Dhrystone 2 using register variables        116700.0  6199006.7      531.2
+                                                                 =========
+     FINAL SCORE                                                     531.2

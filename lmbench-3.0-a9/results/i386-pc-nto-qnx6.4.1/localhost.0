@@ -1,0 +1,119 @@
+[lmbench3.0 results for QNX localhost 6.4.1 2009/05/20-17:35:56EDT x86pc x86]
+[LMBENCH_VER: 3.0-a9]
+[BENCHMARK_HARDWARE: YES]
+[BENCHMARK_OS: YES]
+[ALL: 512 1k 2k 4k 8k 16k 32k 64k 128k 256k 512k 1m 2m 4m 8m 16m 32m 64m 128m 256m 512m]
+[DISKS: ]
+[DISK_DESC: ]
+[ENOUGH: 1000000]
+[FAST: ]
+[FASTMEM: NO]
+[FILE: /tmp/XXX]
+[FSDIR: /tmp]
+[HALF: 512 1k 2k 4k 8k 16k 32k 64k 128k 256k 512k 1m 2m 4m 8m 16m 32m 64m 128m 256m]
+[INFO: INFO.localhost]
+[LINE_SIZE: 64]
+[LOOP_O: 0.00000201]
+[MB: 716]
+[MHZ: 1979 MHz, 0.5053 nanosec clock]
+[MOTHERBOARD: ]
+[NETWORKS: ]
+[PROCESSORS: ]
+[REMOTE: ]
+[SLOWFS: NO]
+[OS: i386-pc-nto-qnx6.4.1]
+[SYNC_MAX: 1]
+[LMBENCH_SCHED: DEFAULT]
+[TIMING_O: 0]
+[LMBENCH VERSION: 3.0-a9]
+[USER: root]
+[HOSTNAME: localhost]
+[NODENAME: localhost]
+[SYSNAME: QNX]
+[PROCESSOR: x86]
+[MACHINE: x86pc]
+[RELEASE: 6.4.1]
+[VERSION: 2009/05/20-17:35:56EDT]
+[Wed Oct 20 18:26:42 EDT 2010]
+./lmbench[103]: uptime: cannot execute - No such file or directory
+[]
+[net: Name  Mtu   Network       Address              Ipkts Ierrs    Opkts Oerrs Colls]
+[net: lo0   33192 <Link>                                 0     0        0     0     0]
+[if: lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 33192]
+[if: inet 127.0.0.1 netmask 0xff000000]
+[net: lo0   33192 127/8         localhost.localdo        0     0        0     0     0]
+[if: lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 33192]
+[if: inet 127.0.0.1 netmask 0xff000000]
+[net: wm0   1500  <Link>        00:e0:81:b8:b1:a0   269684     0    85667     0     0]
+[if: wm0: flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500]
+[if: capabilities rx=7<IP4CSUM,TCP4CSUM,UDP4CSUM>]
+[if: capabilities tx=1f<IP4CSUM,TCP4CSUM,UDP4CSUM,TCP6CSUM,UDP6CSUM>]
+[if: enabled=0]
+[if: address: 00:e0:81:b8:b1:a0]
+[if: media: Ethernet autoselect (100baseTX full-duplex)]
+[if: status: active]
+[if: inet 129.97.92.17 netmask 0xffffff00 broadcast 129.97.92.255]
+[net: wm0   1500  129.97.92/24  esg-beast.uwaterl   269684     0    85667     0     0]
+[if: wm0: flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500]
+[if: capabilities rx=7<IP4CSUM,TCP4CSUM,UDP4CSUM>]
+[if: capabilities tx=1f<IP4CSUM,TCP4CSUM,UDP4CSUM,TCP6CSUM,UDP6CSUM>]
+[if: enabled=0]
+[if: address: 00:e0:81:b8:b1:a0]
+[if: media: Ethernet autoselect (100baseTX full-duplex)]
+[if: status: active]
+[if: inet 129.97.92.17 netmask 0xffffff00 broadcast 129.97.92.255]
+[mount: /dev/hd0t179 on / type qnx6]
+[mount: (129.97.92.224)129.97.92.224:/qnx on /mnt/nas-qnx type CIFS/SMB]
+[mount: (129.97.92.224)129.97.92.224:/Public on /mnt/nas-public type CIFS/SMB]
+Simple syscall: 2.2599 microseconds
+Simple read: 1.4373 microseconds
+Simple write: 1.3254 microseconds
+Simple stat: 15.1963 microseconds
+Simple fstat: 3.9569 microseconds
+Simple open/close: 17.1136 microseconds
+Select on 10 fd's: 4.7963 microseconds
+Select on 100 fd's: 60.9392 microseconds
+Select on 250 fd's: 153.7089 microseconds
+Select on 10 tcp fd's: 4.1172 microseconds
+Select on 100 tcp fd's: 32.2513 microseconds
+Select on 250 tcp fd's: 75.7535 microseconds
+Signal handler installation: 0.2148 microseconds
+Signal handler overhead: 0.6251 microseconds
+Protection fault: 0.3560 microseconds
+Pipe latency: 12.6764 microseconds
+AF_UNIX sock stream latency: 13.5915 microseconds
+Process fork+exit: 811.5443 microseconds
+Process fork+execve: 3753.0471 microseconds
+Process fork+/bin/sh -c: 6625.5633 microseconds
+integer bit: 0.51 nanoseconds
+integer add: 0.51 nanoseconds
+integer mul: 0.15 nanoseconds
+integer div: 25.43 nanoseconds
+integer mod: 14.63 nanoseconds
+int64 bit: 0.52 nanoseconds
+uint64 add: 0.56 nanoseconds
+int64 mul: 0.30 nanoseconds
+int64 div: 48.61 nanoseconds
+int64 mod: 50.83 nanoseconds
+float add: 2.03 nanoseconds
+float mul: 2.03 nanoseconds
+float div: 12.18 nanoseconds
+double add: 2.04 nanoseconds
+double mul: 2.03 nanoseconds
+double div: 12.17 nanoseconds
+float bogomflops: 11.65 nanoseconds
+double bogomflops: 11.65 nanoseconds
+integer bit parallelism: 2.79
+integer div parallelism: 1.01
+integer mod parallelism: 1.03
+int64 bit parallelism: 1.00
+int64 mul parallelism: 1.74
+int64 div parallelism: 1.00
+int64 mod parallelism: 1.12
+float add parallelism: 2.88
+float mul parallelism: 4.01
+float div parallelism: 1.15
+double add parallelism: 2.90
+double mul parallelism: 4.00
+double div parallelism: 1.14
+File /tmp/XXX write bandwidth: 10083 KB/sec

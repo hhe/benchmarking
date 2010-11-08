@@ -1,0 +1,35 @@
+# if the test requires mulitple concurrent processes,
+# prepare the background process string (bgstr)
+# with these options
+###################### select the bench specific values ##########
+args="" # the accumulator for the bench units to be run
+cd $testdir                   # move to the test directory
+eval msg='"'$parammsg'"'            # the eval is used to
+exit # leave the script if there are errors
+for i in $repeat    # loop for the specified number
+if test -f $tmp # is there an error file ?
+need=$prog             # we need the at least the program
+prog=${BINDIR}/$bench  # the bench name is default program
+status=$?                  # save the result code
+testdir="${TESTDIR}"   # the directory in which to run the test
+then
+then
+then
+then
+then
+then
+then
+then
+then
+then
+then
+then
+then
+then
+then
+then
+then
+then
+then
+then                                # variables in the parammsg
+then # without redirected stdin

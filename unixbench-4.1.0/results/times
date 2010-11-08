@@ -1,0 +1,3065 @@
+TEST|Dhrystone 2 using register variables
+FLAVOR|BSD
+68819093 loops
+10.000s real   10.000s user   00.000s system
+63473838 loops
+10.010s real   10.000s user   00.000s system
+69691870 loops
+10.010s real   09.990s user   00.000s system
+70223834 loops
+10.000s real   10.000s user   00.000s system
+70807807 loops
+10.000s real   10.000s user   00.000s system
+66400487 loops
+10.000s real   09.790s user   00.000s system
+70532353 loops
+10.010s real   10.000s user   00.000s system
+68663477 loops
+10.010s real   10.000s user   00.000s system
+68839391 loops
+10.010s real   10.000s user   00.000s system
+72504193 loops
+10.010s real   10.000s user   00.000s system
+TEST|Double-Precision Whetstone
+FLAVOR|BSD
+MWIPS                               1331.077              11.164
+12.920s real   12.740s user   00.000s system
+MWIPS                               1425.027               7.403
+09.230s real   09.100s user   00.000s system
+MWIPS                               1390.356               7.638
+09.650s real   09.490s user   00.000s system
+MWIPS                               1313.029               9.596
+11.490s real   11.300s user   00.000s system
+MWIPS                               1390.049               8.057
+09.990s real   09.820s user   00.000s system
+MWIPS                               1323.422              11.138
+12.930s real   12.750s user   00.000s system
+MWIPS                               1428.735               7.853
+09.810s real   09.650s user   00.000s system
+MWIPS                               1352.712              10.897
+12.650s real   12.470s user   00.000s system
+MWIPS                               1379.496               8.068
+10.170s real   10.000s user   00.000s system
+MWIPS                               1394.617               8.511
+10.500s real   10.350s user   00.000s system
+TEST|System Call Overhead
+FLAVOR|BSD
+510061 loops
+10.010s real   00.700s user   06.380s system
+506678 loops
+10.010s real   00.620s user   06.050s system
+508609 loops
+10.000s real   00.670s user   06.300s system
+492039 loops
+10.000s real   00.640s user   06.210s system
+494370 loops
+10.010s real   00.640s user   06.220s system
+470910 loops
+10.000s real   00.670s user   06.180s system
+483681 loops
+10.010s real   00.670s user   06.260s system
+479311 loops
+10.010s real   00.650s user   06.080s system
+517973 loops
+10.000s real   00.610s user   06.130s system
+507405 loops
+10.010s real   00.620s user   06.150s system
+TEST|Pipe Throughput
+FLAVOR|BSD
+325052 loops
+10.010s real   00.220s user   06.240s system
+327060 loops
+10.000s real   00.200s user   06.040s system
+321873 loops
+10.010s real   00.190s user   06.020s system
+314763 loops
+10.010s real   00.200s user   05.890s system
+337840 loops
+10.010s real   00.190s user   06.010s system
+346165 loops
+10.000s real   00.200s user   05.900s system
+346966 loops
+10.000s real   00.230s user   05.920s system
+337557 loops
+10.010s real   00.210s user   05.870s system
+338661 loops
+10.000s real   00.210s user   05.970s system
+345884 loops
+10.010s real   00.200s user   05.800s system
+TEST|Pipe-based Context Switching
+FLAVOR|BSD
+284463 loops
+10.000s real   00.180s user   03.560s system
+307202 loops
+10.000s real   00.160s user   03.520s system
+321264 loops
+10.010s real   00.170s user   03.510s system
+303212 loops
+10.010s real   00.160s user   03.590s system
+314436 loops
+10.000s real   00.190s user   03.500s system
+312306 loops
+10.010s real   00.150s user   03.470s system
+298961 loops
+10.000s real   00.160s user   03.490s system
+307162 loops
+10.000s real   00.200s user   03.650s system
+306776 loops
+10.010s real   00.160s user   03.480s system
+297088 loops
+10.010s real   00.190s user   03.730s system
+TEST|Process Creation
+FLAVOR|BSD
+14288 loops
+30.010s real   05.460s user   12.110s system
+14080 loops
+30.010s real   05.430s user   12.200s system
+14063 loops
+30.010s real   05.310s user   12.330s system
+TEST|Execl Throughput
+FLAVOR|BSD
+8058 loops
+29.080s real   00.000s user   00.000s system
+8188 loops
+29.940s real   00.000s user   00.000s system
+8444 loops
+29.950s real   00.000s user   00.000s system
+TEST|Filesystem Throughput 1024 bufsize 2000 maxblocks
+FLAVOR|BSD
+30 second sample
+42400 Kbytes/sec write 1024 bufsize 2000 max blocks
+30 second sample
+49632 Kbytes/sec read 1024 bufsize 2000 max blocks 
+30 second sample
+22975 Kbytes/sec copy 1024 bufsize 2000 max blocks 
+02:03.050s real   01.360s user   36.660s system
+30 second sample
+45266 Kbytes/sec write 1024 bufsize 2000 max blocks
+30 second sample
+49163 Kbytes/sec read 1024 bufsize 2000 max blocks 
+30 second sample
+23396 Kbytes/sec copy 1024 bufsize 2000 max blocks 
+02:03.020s real   01.250s user   35.470s system
+30 second sample
+45466 Kbytes/sec write 1024 bufsize 2000 max blocks
+30 second sample
+52777 Kbytes/sec read 1024 bufsize 2000 max blocks 
+30 second sample
+24014 Kbytes/sec copy 1024 bufsize 2000 max blocks 
+02:03.030s real   01.150s user   34.560s system
+TEST|Filesystem Throughput 256 bufsize 500 maxblocks
+FLAVOR|BSD
+30 second sample
+11716 Kbytes/sec write 256 bufsize 2000 max blocks
+30 second sample
+22777 Kbytes/sec read 256 bufsize 2000 max blocks 
+30 second sample
+7926 Kbytes/sec copy 256 bufsize 2000 max blocks 
+02:03.030s real   01.810s user   54.090s system
+30 second sample
+12116 Kbytes/sec write 256 bufsize 2000 max blocks
+30 second sample
+23453 Kbytes/sec read 256 bufsize 2000 max blocks 
+30 second sample
+7631 Kbytes/sec copy 256 bufsize 2000 max blocks 
+02:03.050s real   01.800s user   54.180s system
+30 second sample
+12050 Kbytes/sec write 256 bufsize 2000 max blocks
+30 second sample
+23525 Kbytes/sec read 256 bufsize 2000 max blocks 
+30 second sample
+6060 Kbytes/sec copy 256 bufsize 2000 max blocks 
+02:03.040s real   01.920s user   54.280s system
+TEST|Filesystem Throughput 4096 bufsize 8000 maxblocks
+FLAVOR|BSD
+30 second sample
+81600 Kbytes/sec write 4096 bufsize 2000 max blocks
+30 second sample
+132253 Kbytes/sec read 4096 bufsize 2000 max blocks 
+30 second sample
+49871 Kbytes/sec copy 4096 bufsize 2000 max blocks 
+02:03.050s real   01.510s user   27.460s system
+30 second sample
+86666 Kbytes/sec write 4096 bufsize 2000 max blocks
+30 second sample
+161491 Kbytes/sec read 4096 bufsize 2000 max blocks 
+30 second sample
+59146 Kbytes/sec copy 4096 bufsize 2000 max blocks 
+02:03.090s real   01.450s user   27.060s system
+30 second sample
+99466 Kbytes/sec write 4096 bufsize 2000 max blocks
+30 second sample
+171579 Kbytes/sec read 4096 bufsize 2000 max blocks 
+30 second sample
+59078 Kbytes/sec copy 4096 bufsize 2000 max blocks 
+02:03.080s real   01.380s user   25.210s system
+TEST|Shell Scripts (1 concurrent)
+FLAVOR|BSD
+662 loops
+01:00.010s real   15.530s user   04.400s system
+718 loops
+01:00.010s real   15.480s user   04.470s system
+711 loops
+01:00.010s real   15.580s user   04.360s system
+TEST|Shell Scripts (8 concurrent)
+FLAVOR|BSD
+93 loops
+01:00.020s real   15.640s user   04.270s system
+92 loops
+01:00.020s real   15.700s user   04.170s system
+91 loops
+01:00.010s real   15.610s user   04.360s system
+TEST|Shell Scripts (16 concurrent)
+FLAVOR|BSD
+47 loops
+01:00.030s real   15.550s user   04.220s system
+46 loops
+01:00.020s real   15.320s user   04.350s system
+46 loops
+01:00.020s real   15.530s user   04.280s system
+TEST|Arithmetic Test (type = short)
+FLAVOR|BSD
+16310568 loops
+10.000s real   10.000s user   00.000s system
+17328772 loops
+10.000s real   09.990s user   00.000s system
+16968073 loops
+10.010s real   10.000s user   00.000s system
+TEST|Arithmetic Test (type = int)
+FLAVOR|BSD
+17890752 loops
+10.000s real   10.000s user   00.000s system
+17160959 loops
+10.010s real   10.000s user   00.000s system
+16738809 loops
+10.010s real   10.000s user   00.000s system
+TEST|Arithmetic Test (type = long)
+FLAVOR|BSD
+16306818 loops
+10.000s real   10.000s user   00.000s system
+16538956 loops
+10.010s real   10.000s user   00.000s system
+16713443 loops
+10.000s real   10.000s user   00.000s system
+TEST|Arithmetic Test (type = float)
+FLAVOR|BSD
+5435034 loops
+10.010s real   09.990s user   00.000s system
+5447669 loops
+10.010s real   10.000s user   00.000s system
+5787062 loops
+10.000s real   10.000s user   00.000s system
+TEST|Arithmetic Test (type = double)
+FLAVOR|BSD
+5915606 loops
+10.010s real   10.000s user   00.000s system
+5635746 loops
+10.000s real   10.000s user   00.000s system
+5437260 loops
+10.010s real   10.000s user   00.000s system
+TEST|Arithoh
+FLAVOR|BSD
+0 loops
+10.010s real   10.000s user   00.000s system
+0 loops
+10.010s real   10.000s user   00.000s system
+0 loops
+10.000s real   10.000s user   00.000s system
+TEST|C Compiler Throughput
+FLAVOR|BSD
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+482 loops
+01:00.010s real   18.700s user   04.720s system
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+461 loops
+01:00.020s real   18.460s user   04.500s system
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+cctest.c: In function 'main':
+cctest.c:46: warning: incompatible implicit declaration of built-in function 'exit'
+441 loops
+01:00.010s real   19.290s user   04.380s system
+TEST|Dc: sqrt(2) to 99 decimal places
+FLAVOR|BSD
+10985 loops
+30.010s real   04.240s user   09.130s system
+10450 loops
+30.010s real   04.180s user   09.130s system
+10880 loops
+30.010s real   04.450s user   08.920s system
+TEST|Recursion Test--Tower of Hanoi
+FLAVOR|BSD
+1716062 loops
+20.000s real   20.000s user   00.000s system
+1478669 loops
+20.000s real   20.000s user   00.000s system
+1487698 loops
+20.010s real   19.990s user   00.000s system

@@ -1,0 +1,8 @@
+TEST|Dhrystone 2 using register variables
+FLAVOR|BSD
+68644318 loops
+10.010s real   10.000s user   00.000s system
+66325360 loops
+10.000s real   10.000s user   00.000s system
+70083583 loops
+10.010s real   09.990s user   00.000s system
